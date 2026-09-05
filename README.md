@@ -89,6 +89,6 @@ Os prints de tela referentes a cada caso de teste estão organizados na pasta [`
 - Google Chrome DevTools
 - Google Lighthouse
 
-## 👩‍💻 Sobre este projeto
+## Sobre este projeto
 
 Este repositório faz parte do meu portfólio de estudos em **Garantia de Qualidade (QA) e testes de interfaces web**, desenvolvido como prática complementar aos meus estudos em desenvolvimento front-end.
