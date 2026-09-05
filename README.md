@@ -1,16 +1,16 @@
 # Plano de Testes — Tela de Login gov.br
 
-## 🎯 Objetivo
+## Objetivo
 
 Este repositório documenta um exercício de **testes manuais de QA (Garantia de Qualidade)** aplicado à tela de login público do gov.br (`https://sso.acesso.gov.br`), com foco em validação de campos, tratamento de erros, acessibilidade e usabilidade.
 
 O objetivo não é auditar ou explorar vulnerabilidades do sistema, e sim praticar e demonstrar competências de teste de interface web: elaboração de casos de teste, execução manual, documentação de bugs e análise de acessibilidade.
 
-## ⚠️ Aviso importante
+## Aviso importante
 
 Todos os testes foram realizados de forma **manual e observacional**, sem uso de CPF ou senha reais, sem automação de requisições e **sem concluir nenhum login de fato**. O objetivo foi observar apenas o comportamento visual e as mensagens de validação exibidas pela interface.
 
-## 🔍 Escopo dos testes
+## Escopo dos testes
 
 - Validação de formato do campo CPF
 - Validação do campo senha
@@ -19,16 +19,16 @@ Todos os testes foram realizados de forma **manual e observacional**, sem uso de
 - Responsividade em diferentes tamanhos de tela
 - Auditoria automatizada de acessibilidade (Google Lighthouse)
 
-## 🧪 Metodologia
+## Metodologia
 
 - **Testes manuais de caixa-preta**: interação direta com a interface, sem conhecimento do código-fonte, apenas observando entradas e saídas.
 - **Auditoria automatizada complementar**: uso do Google Lighthouse (DevTools do Chrome) para métricas objetivas de acessibilidade.
 
-## 📋 Casos de teste
+## Casos de teste
 
 A lista completa de cenários testados, com passos, resultado esperado e resultado obtido, está no arquivo [`casos-de-teste.md`](./casos-de-teste.md).
 
-## 🐞 Principais achados
+## Principais achados
 
 Os 10 casos de teste manuais não identificaram falhas de validação (todos passaram). No entanto, a auditoria automatizada de acessibilidade revelou problemas relevantes que não são visíveis durante um teste funcional comum, reforçando a importância de combinar testes manuais com ferramentas automatizadas.
 
@@ -56,7 +56,7 @@ Os 10 casos de teste manuais não identificaram falhas de validação (todos pas
 - **Resultado obtido:** 2 links identificados sem nome acessível, aparecendo como "link vazio" para tecnologias assistivas
 - **Sugestão de correção:** Adicionar `aria-label` descritivo, ex: `aria-label="Ativar modo de alto contraste"`
 
-## ♿ Relatório de acessibilidade (Lighthouse)
+## Relatório de acessibilidade (Lighthouse)
 
 Auditoria realizada com o Google Lighthouse (versão 13.4.1, motor de acessibilidade axe-core 4.12.1), em 05/09/2026, na tela `https://sso.acesso.gov.br/login`.
 
@@ -79,11 +79,11 @@ Auditoria realizada com o Google Lighthouse (versão 13.4.1, motor de acessibili
 
 O relatório completo (HTML) está disponível na pasta [`evidencias/`](./evidencias).
 
-## 🖼️ Evidências
+## Evidências
 
 Os prints de tela referentes a cada caso de teste estão organizados na pasta [`evidencias/`](./evidencias).
 
-## 🛠️ Tecnologias e ferramentas utilizadas
+## Tecnologias e ferramentas utilizadas
 
 - Testes manuais (exploração de interface)
 - Google Chrome DevTools
