@@ -17,4 +17,4 @@
 
 ## Observações gerais
 
-Não houve nenhum comportamento fora do padrão durante os testes manuais — todas as funcionalidades seguiram o comportamento esperado. Os problemas relevantes encontrados neste projeto vieram da auditoria automatizada de acessibilidade (ver seção correspondente no `README.md`), reforçando que testes manuais funcionais e ferramentas automatizadas cobrem tipos diferentes de falha e se complementam.
+Não houve nenhum comportamento fora do padrão durante os testes manuais, todas as funcionalidades seguiram o comportamento esperado. Os problemas relevantes encontrados neste projeto vieram da auditoria automatizada de acessibilidade (ver seção correspondente no `README.md`), reforçando que testes manuais funcionais e ferramentas automatizadas cobrem tipos diferentes de falha e se complementam.
